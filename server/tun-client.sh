@@ -1,0 +1,1 @@
+sudo udp2raw -c -l 0.0.0.0:52814 -r 172.16.88.88:58823 -k "passwd" --raw-mode faketcp --cipher-mode xor -a &
